@@ -1,0 +1,21 @@
+.top-bar {
+  overflow: hidden;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  color: transparent;
+  background: black;
+  margin-bottom: 0; }
+
+  .top-bar-section ul li > a {
+    display: block;
+    width: 100%;
+    color: #FF2C2A;
+    background-color: black;
+    padding: 12px 0 12px 0;
+    padding-left: 15px;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: normal;
+    text-transform: none;
+    background: black; }
