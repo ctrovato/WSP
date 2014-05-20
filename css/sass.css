@@ -35,6 +35,11 @@ body {
   font-weight: normal;
   text-transform: none; }
 
+.top-bar-section ul li > a:hover {
+  color: #FF2C2A;
+  text-transform: bold;
+  }
+
 .top-bar-section ul {
   background: transparent; }
 
