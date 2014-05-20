@@ -1,0 +1,120 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canon Direct Store</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="row">
+  <div class="large-12 columns">
+
+    <!-- Navigation -->
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <img src="images/Canon_logo.png" class="logo" />
+
+          <!-- Title Area -->
+          <li class="name">
+            <h1>
+              <a href="#">
+
+              </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ProductListing.html">Products</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+
+        </section>
+      </nav>
+
+    <!-- End Navigation -->
+
+    </div>
+  </div>
+
+
+
+  <!-- Sign Up FORM -------->
+        <div class="inline">
+
+          <div id ="user_info">
+            <h2>Sign Up</h2>
+            <h3>Please fill out the following personal information:</h3>
+            <p><label for = "name" class="float_left">Full Name:</label>
+             <input id ="name" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="First Name" required />
+             </p>
+
+             <p>
+             <input id ="name" class="float_left clear form_focus form_hover round_corner" type = "text" name = "name" maxlength = "40" placeholder ="Last Name" required />
+             </p>
+
+
+
+<!--  DATE  -->
+
+            <p>
+            <label for="first-date" class="clear float_left">Date of Birth</label>
+            <input type="date" value="" name="first-date" class="float_left clear form_focus form_hover round_corner" />
+            </p>
+
+
+
+            <p><label for= "tel" class="clear float_left">Email Address:</label> <input type="tel" id="tel" class="float_left clear form_focus form_hover round_corner" maxlength = "20" placeholder ="Email Address" required  />
+            </p>
+
+
+          </div>
+
+<!-- DROP BOX -->
+          <div id ="dropbox" class="float_left clear">
+            <p>Newsletter: <br>Would You like to receive Newsletters via Email</p>
+            <select name = "marketing">
+              <option> Select One</option>
+              <option value = "Black">Yes, Weekly</option>
+              <option value = "Blue">Yes, Monthly</option>
+              <option value = "Brown">Yes, Annually</option>
+              <option value = "Green">No, Thank You</option>
+            </select>
+
+
+<!-- SUBMIT -->
+        <button class="submit"> SUBMIT</button>
+      </form>
+    </div>    <!-- .inline -->
+
+
+    <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright Canon Inc.  All Rights Reserved</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>

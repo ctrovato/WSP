@@ -1,0 +1,31 @@
+{
+  "name": "WSP_Canon_Camera",
+  "version": "0.0.1",
+  "description": "Canon Homepage",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^0.7.2",
+    "grunt-contrib-jade": "^0.11.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctrovato/WSP1405_Trovato_Carmine_FinalProject/WSP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctrovato/WSP1405_Trovato_Carmine_FinalProject/WSP"
+  },
+  "homepage": "https://github.com/ctrovato/WSP1405_Trovato_Carmine_FinalProject/WSP"
+}
