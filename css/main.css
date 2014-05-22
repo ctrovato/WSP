@@ -55,12 +55,19 @@ body {
 }
 
 #featured{
-  background: url(../images/banner.jpg);
+  background: url(../images/Banner1.jpg);
   background-size: cover;
   height: 365px;
   width: 970px;
 
 }
+
+#product-featureBanner{
+  background: url(../images/productBanner.jpg);
+  background-size: cover;
+
+}
+
 
 .inline{
   margin-left: 185px;
@@ -79,7 +86,7 @@ body {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  margin-top: 150px;
+  margin-top: 265px;
   margin-left: 150px;
   padding-top: 1rem;
   padding-right: 1rem;
