@@ -1,4 +1,4 @@
-!!! 5
+doctype html
 html.no-js(lang='en')
   head
     meta(charset='utf-8')
@@ -12,7 +12,9 @@ html.no-js(lang='en')
     // Navigation
     nav.top-bar(data-topbar='')
       ul.title-area
-        img.logo(src='images/Canon_logo.png')
+        li
+          a(href="index.html")
+            img.logo(src='images/Canon_logo.png')
         // Title Area
         li.name
           h1
@@ -23,11 +25,9 @@ html.no-js(lang='en')
       section.top-bar-section
         ul.left
           li
-            a(href='index.html') Home
-          li
             a(href='ProductListing.html') Products
           li
-            a(href='#') Contact
+            a(href='Contact.html') Contact
           li
             a(href='SignUp.html') Sign Up
     // End Navigation
@@ -36,30 +36,26 @@ html.no-js(lang='en')
 .row
   // Contact Details
   .large-9.columns
-    h3 Get in Touch!
-    p
-      | We'd love to hear from you. You can either reach out to us as a whole and one of our awesome team members will get back to you, or if you have a specific question reach out to one of our staff. We love getting email all day
-      em all day
-      | .
+    h5 Get Help with Products, Downloads, and more!
     .section-container.tabs(data-section='')
       section.section
         h5.title
-          a(href='#panel1') Contact Our Company
+          a(href='#panel1') Contact Us
         .content(data-slug='panel1')
           form
             .row.collapse
               .large-2.columns
                 label.inline Your Name
               .large-10.columns
-                input#yourName(type='text', placeholder='Jane Smith')
+                input#yourName(type='text', placeholder='Full Name')
             .row.collapse
               .large-2.columns
                 label.inline  Your Email
               .large-10.columns
-                input#yourEmail(type='text', placeholder='jane@smithco.com')
+                input#yourEmail(type='text', placeholder='example@example.com')
             label What's up?
             textarea(rows='4')
-            button.radius.button(type='submit') Submit
+            button.submit  SUBMIT
   // End Contact Details
   // End Main Content and Sidebar
   // Footer
@@ -68,5 +64,5 @@ html.no-js(lang='en')
       hr
       .row
         .large-6.columns
-          p © Copyright no one at all. Go to town.
+          p  &#169; Copyright Canon Inc.  All Rights Reserved
   // End Footer

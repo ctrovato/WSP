@@ -1,98 +1,91 @@
-!!! 5
+doctype html
 html.no-js(lang='en')
   head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Canon Direct Store
-    link(rel='stylesheet', href='css/foundation.css')
-    link(rel='stylesheet', href='css/main.css')
-    script(src='js/vendor/modernizr.js')
-.large-12.columns
-    // Navigation
-    nav.top-bar(data-topbar='')
-      ul.title-area
-        img.logo(src='images/Canon_logo.png')
-        // Title Area
-        li.name
-          h1
-            a(href='#')
-        li.toggle-topbar.menu-icon
-          a(href='#')
-            span menu
-      section.top-bar-section
-        ul.left
-          li
-            a(href='#') Home
-          li
-            a(href='ProductListing.html') Products
-          li
-            a(href='Contact.html') Contact
-          li
-            a(href='SignUp.html') Sign Up
-    // End Navigation
-.row
-  .large-12.columns
-    // Desktop Slider
-    .hide-for-small
-      #featured
-        button.shop  Start Shopping
-    // End Desktop Slider
-    // Mobile Header
-    .row
-      .small-12.show-for-small
-        br
-        img(src='http://placehold.it/1000x600&text=For Small Screens')
-    // End Mobile Header
-br
-.row
-  .large-12.columns
-    .row
-      // Thumbnails
-      .large-3.small-6.columns
-        img(src='images/EOS_Rebel.jpg')
-        h6.panel EOS Rebel SL1 EF-S 18-55mm IS STM Kit White
-      .large-3.small-6.columns
-        img(src='images/EOS_5D.jpg')
-        h6.panel EOS 5D Mark III EF 24-70mm F4L
-      .large-3.small-6.columns
-        img(src='images/EOS_70D.jpg')
-        h6.panel EOS 70D EF-S 18-55mm IS STM
-      .large-3.small-6.columns
-        img(src='images/EOS_6D.jpg')
-        h6.panel EOS 6D EF 24-105mm f/4L IS USM
-      // End Thumbnails
-.row
-  .large-12.columns
-    .row
-      // Content
-      .large-8.columns
-        .panel.radius
-          .row
-            .large-6.small-6.columns
-              h4 Header
-              hr
-              h5.subheader
-                | Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-              .show-for-small(align='center')
-                a.small.radius.button(href='#') Call To Action!
-                br
-                a.small.radius.button(href='#') Call To Action!
-            .large-6.small-6.columns
-              p
-                | Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.
-      .large-4.columns.hide-for-small
-        h4 Get In Touch!
-        hr
-        a.large.button.expand(href='#')
-          | Call To Action!
-        a.large.button.expand(href='#')
-          | Call To Action!
-      // End Content
-// Footer
-footer.row
-  .large-12.columns
-    hr
-    .row
-      .large-6.columns
-        p © Copyright Canon Inc.  All Rights Reserved
-script(src='js/vendor/jquery.js')
+    body
+      meta(charset='utf-8')
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      title Canon Direct Store
+      link(rel='stylesheet', href='css/foundation.css')
+      link(rel='stylesheet', href='css/main.css')
+      script(src='js/vendor/modernizr.js')
+  .row
+    .large-12.columns
+        // Navigation
+        nav.top-bar(data-topbar='')
+          ul.title-area
+            li
+              a(href="index.html")
+                img.logo(src='images/Canon_logo.png')
+
+            // Title Area
+            li.name
+              h1
+                a(href='#')
+            li.toggle-topbar.menu-icon
+              a(href='#')
+                span menu
+          section.top-bar-section
+            ul.left
+              li
+                a(href='ProductListing.html') Products
+              li
+                a(href='Contact.html') Contact
+              li
+                a(href='SignUp.html') Sign Up
+        // End Navigation
+  .row
+    .large-12.columns
+      // Desktop Slider
+      .hide-for-small
+        #featured
+          a.shop(href='ProductListing.html')
+            | Start Shopping
+
+      // End Desktop Slider
+      // Mobile Header
+      .row
+        .small-12.show-for-small
+          br
+          img(src='images/productBanner.jpg')
+      // End Mobile Header
+  br
+  .row
+    .large-12.columns
+      .row.text-center
+        // Thumbnails
+        .large-3.small-6.columns
+          img(src='images/sale-icon.jpg')
+          h6.panel Special Offers
+        .large-3.small-6.columns
+          img(src='images/clearance-icon.jpg')
+          h6.panel Clearance Offers
+        .large-3.small-6.columns
+          img(src='images/exclusive-icon.jpg')
+          h6.panel Exclusive Deals
+        .large-3.small-6.columns
+          img(src='images/referbished-icon.jpg')
+          h6.panel Referbished Cameras
+        // End Thumbnails
+  .row
+    .large-12.columns
+      .row
+        // Content
+        .large-8.columns
+          .panel.radius
+            .row
+
+        .large-4.columns.hide-for-small
+          h4 Technical Support: Get Help with Products, Downloads, and more.
+          hr
+          a.submit(href='Contact.html')
+            | Contact Us
+
+        // End Content
+  // Footer
+  footer.row
+    .large-12.columns
+      hr
+      .row
+        .large-6.columns
+          p &#169; Copyright Canon Inc.  All Rights Reserved
+  script(src='js/vendor/jquery.js')

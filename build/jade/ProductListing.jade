@@ -1,4 +1,4 @@
-!!! 5
+doctype html
 html.no-js(lang='en')
   head
     meta(charset='utf-8')
@@ -12,7 +12,9 @@ html.no-js(lang='en')
     // Navigation
     nav.top-bar(data-topbar='')
       ul.title-area
-        img.logo(src='images/Canon_logo.png')
+        li
+          a(href="index.html")
+            img.logo(src='images/Canon_logo.png')
         // Title Area
         li.name
           h1
@@ -23,8 +25,6 @@ html.no-js(lang='en')
       section.top-bar-section
         ul.left
           li
-            a(href='index.html') Home
-          li
             a(href='#') Products
           li
             a(href='Contact.html') Contact
@@ -32,69 +32,54 @@ html.no-js(lang='en')
             a(href='SignUp.html') Sign Up
     // End Navigation
 .row
-  // Side Bar
-  .large-4.small-12.columns
-    img(src='http://placehold.it/500x500&text=Logo')
-    .hide-for-small.panel
-      h3 Header
-      h5.subheader
-        | Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-    a(href='#')
-      .panel.callout.radius
-        h6 99  items in your cart
   // End Side Bar
   // Thumbnails
   .large-8.columns
     .row
-      .large-4.small-6.columns
-        img(src='http://placehold.it/1000x1000&text=Thumbnail')
+      .large-4.small-8.columns
+        img.frame(src='images/Description-1.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
-      .large-4.small-6.columns
-        img(src='http://placehold.it/500x500&text=Thumbnail')
+          h5 EOS Rebel SL1 White
+          h6.subheader $699.00
+          p World's smallest digital SLR* featuring a newly-developed 18.0 Megapixel
+      .large-4.small-8.columns
+        img.frame(src='images/Description-2.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
-      .large-4.small-6.columns
-        img(src='http://placehold.it/500x500&text=Thumbnail')
+          h5 EOS 5D Mark III EF
+          h6.subheader $4,699.00
+          p Stunning full frame, high-resolution image capture.
+      .large-4.small-8.columns
+        img.frame(src='images/Description-3.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
+          h5 EOS 6D EF 24-105mm
+          h6.subheader $2,299.00
+          p Features from still images to video, the new EOS 7D represents a whole new class of camera.
       .large-4.small-6.columns
-        img(src='http://placehold.it/500x500&text=Thumbnail')
+        img.frame(src='images/Description-4.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
+          h5 PowerShot A4000 IS Red
+          h6.subheader $199.00
+          p Smart AUTO that selects proper camera settings based on 32 predefined shooting situations.
       .large-4.small-6.columns
-        img(src='http://placehold.it/500x500&text=Thumbnail')
+        img.frame(src='images/Description-5.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
+          h5 PowerShot A3400 IS Silver
+          h6.subheader $220.00
+          p You'll love the ease and familiarity of controlling PowerShot A3400 IS digital camera with its big 3.0-inch Touch Panel LCD.
       .large-4.small-6.columns
-        img(src='http://placehold.it/500x500&text=Thumbnail')
+        img.frame(src='images/Description-6.jpg')
         .panel
-          h5 Item Name
-          h6.subheader $000.00
+          h5 PowerShot A2600 Silver
+          h6.subheader $129.00
+          p With a 16.0 Megapixel sensor, record precious moments with incredible detail and responsive performance.
     // End Thumbnails
-    // Managed By
-    .row
-      .large-12.columns
-        .panel
-          .row
-            .large-2.small-6.columns
-              img(src='http://placehold.it/300x300&text=Site Owner')
-            .large-10.small-6.columns
-              strong
-                | This Site Is Managed By
-                hr
-                | Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis
-      // End Managed By
+
+
 // Footer
 footer.row
   .large-12.columns
     hr
     .row
       .large-6.columns
-        p © Copyright no one at all. Go to town.
+        p &#169; Copyright Canon Inc.  All Rights Reserved
 // End Footer
