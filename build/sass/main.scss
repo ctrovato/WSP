@@ -4,9 +4,6 @@
 
 
 
-
-
-
 body {
   background: $testColor;
   color: #222222;
@@ -34,7 +31,6 @@ body {
   margin-bottom: 0;
 }
 
-
 .top-bar-section ul {
   background: transparent;
 
@@ -58,12 +54,12 @@ body {
   }
 }
 
-.top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: transparent;
-  color: #FF2C2A;
-  text-transform: bold;
-}
 
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: transparent;
+  color:#FF2C2A;
+  font-weight: bold;
+}
 
 #textfield{
   h5{
@@ -103,7 +99,7 @@ body {
 }
 
 .shop {
-  @include button(#FF2C2A, 1.25rem, 0);
+  // @include button(#FF2C2A, 1.25rem, 0);
   // margin: 0 0 1.25rem;
   position: relative;
   text-decoration: none;
@@ -153,6 +149,18 @@ body {
 
 }
 
+.panel{
+  h4{
+    color: #FF2C2A;
+  }
+  h5{
+    font-weight: bold;
+    color: #FF2C2A;
+  }
+  h6{
+    font-weight: bold;
+  }
+}
 
 
 
@@ -162,8 +170,12 @@ body {
 #textfield{
   height: 80px;
   width:30%;
-
 }
+
+.about{
+  margin: 0 auto;
+}
+
 
 .input{
   width: 30%;

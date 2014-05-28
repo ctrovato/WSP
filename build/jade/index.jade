@@ -7,6 +7,7 @@ html.no-js(lang='en')
       title Canon Direct Store
       link(rel='stylesheet', href='css/foundation.css')
       link(rel='stylesheet', href='css/main.css')
+      script(src='js/vendor/foundation.min.js')
       script(src='js/vendor/modernizr.js')
   .row
     .large-12.columns
@@ -70,15 +71,21 @@ html.no-js(lang='en')
     .large-12.columns
       .row
         // Content
-        .large-8.columns
+        .large-12.columns
           .panel.radius
             .row
 
-        .large-4.columns.hide-for-small
-          h4 Technical Support: Get Help with Products, Downloads, and more.
-          hr
-          a.submit(href='Contact.html')
-            | Contact Us
+        .large-6.columns.hide-for-small
+          .panel
+            .row
+              h4 About
+              p Canon manufactures consumer imaging products including printers, scanners, binoculars, compact digital cameras, film SLR and digital SLR cameras, lenses and video camcorders. The "Business Solutions" division offers multi-functional printers, black and white and color office printers, large format printers, scanners, black and white and color production printers, as well as software to support these products. DeVito/Verdi was hired for an award winning, humorous campaign with the concept “If business were that easy, you wouldn't need us,” using old office footage to describe the new ways Canon Business Solutions was bringing copiers and office supplies forward. Lesser known Canon products include medical, optical and broadcast products, including ophthalmic and x-ray devices, broadcast lenses, semiconductors, digital microfilm scanners, and handy terminals.
+
+        .large-6.columns.hide-for-small
+          .panel
+            .row
+              h4 Digital Cameras
+              p Canon has been manufacturing and distributing digital cameras since 1984, starting with the RC-701. The RC series was followed by the PowerShot and Digital IXUS series of digital cameras. Canon also developed the EOS series of digital single-lens reflex cameras (DSLR) which includes high-end professional models. Canon introduced Thermal Transition Copying as a part of the manufacturing process for all of its cameras. This process allows a camera's polymer casing to very slightly change temperature through an exothermic reaction triggered by electronic sensors, to assist in the prevention of condensation inside the camera; a common problem experienced when using an SLR camera in certain conditions.Related with consumers' trend of switching compact cameras to smartphones, in Q1 2013 Canon Inc. operating profit fell 34 percent year-on-year.
 
         // End Content
   // Footer
@@ -88,4 +95,5 @@ html.no-js(lang='en')
       .row
         .large-6.columns
           p &#169; Copyright Canon Inc.  All Rights Reserved
+  script(src='js/vendor/foundation.js')
   script(src='js/vendor/jquery.js')
