@@ -99,27 +99,45 @@ body {
 
 /* line 101, ../build/sass/main.scss */
 .shop {
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  background-color: #ff2c2a;
   margin-top: 265px;
   margin-left: 150px;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 1rem;
-  font-size: 1rem;
-  border-color: #007095;
+  padding: 1rem 1rem 1rem 1.0625rem;
   color: white;
+  border-color: #007095;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
   font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  position: relative;
 }
 
-/* line 124, ../build/sass/main.scss */
+/* line 107, ../build/sass/main.scss */
 .submit {
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  background-color: #ff2c2a;
+  margin-top: 265px;
+  margin-left: 150px;
+  padding: 1rem 1rem 1rem 1.0625rem;
+  color: white;
+  border-color: #007095;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -128,103 +146,92 @@ body {
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding: 1, 1, 1.0625, 1;
-  background-color: #FF2C2A;
-  border-color: #007095;
-  color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-  font-size: 1rem;
 }
 
-/* line 147, ../build/sass/main.scss */
+/* line 120, ../build/sass/main.scss */
 .frame {
   outline: 1px solid #0f0f0f;
 }
 
-/* line 153, ../build/sass/main.scss */
+/* line 125, ../build/sass/main.scss */
 .panel h4 {
   color: #FF2C2A;
 }
-/* line 156, ../build/sass/main.scss */
+/* line 128, ../build/sass/main.scss */
 .panel h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 160, ../build/sass/main.scss */
+/* line 132, ../build/sass/main.scss */
 .panel h6 {
   font-weight: bold;
 }
 
 /* =============== $Form Input ====================*/
-/* line 170, ../build/sass/main.scss */
+/* line 141, ../build/sass/main.scss */
 #textfield {
   height: 80px;
   width: 30%;
 }
 
-/* line 175, ../build/sass/main.scss */
+/* line 146, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 180, ../build/sass/main.scss */
+/* line 151, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 187, ../build/sass/main.scss */
+/* line 158, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 192, ../build/sass/main.scss */
+/* line 163, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 198, ../build/sass/main.scss */
+/* line 169, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 204, ../build/sass/main.scss */
+/* line 175, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 208, ../build/sass/main.scss */
+/* line 179, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 212, ../build/sass/main.scss */
+/* line 183, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 216, ../build/sass/main.scss */
+/* line 187, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 220, ../build/sass/main.scss */
+/* line 191, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 224, ../build/sass/main.scss */
+/* line 195, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }

@@ -1,9 +1,22 @@
 
-@mixin button ($color){
+@mixin button ($c, $mt, $ml){
 		cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
-  background-color:$color;
-  padding: 0, 0, 0, 1.0625;
+  background-color:$c;
+  margin-top: $mt;
+  margin-left:  $ml;
+  padding:  1rem 1rem 1rem 1.0625rem;
+  color: white;
+  border-color: #007095;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+
 }
+

@@ -99,29 +99,13 @@ body {
 }
 
 .shop {
-  // @include button(#FF2C2A, 1.25rem, 0);
-  // margin: 0 0 1.25rem;
+  @include button($color, 265px, 150px);
   position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  margin-top: 265px;
-  margin-left: 150px;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 1rem;
-  font-size: 1rem;
-  // background-color: #FF2C2A;
-  border-color: #007095;
-  color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-  font-size: 1rem;
+
 }
 
 .submit{
+  @include button($color, 265px, 150px);
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -130,23 +114,11 @@ body {
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding: 1, 1, 1.0625, 1;
-  background-color: #FF2C2A;
-  border-color: #007095;
-  color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-  font-size: 1rem;
 }
 
 
 .frame{
   outline: 1px solid #0f0f0f;
-
 }
 
 .panel{
@@ -161,7 +133,6 @@ body {
     font-weight: bold;
   }
 }
-
 
 
 /* =============== $Form Input ====================*/
