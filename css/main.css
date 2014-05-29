@@ -176,71 +176,76 @@ body {
   font-weight: bold;
 }
 
+/* line 144, ../build/sass/main.scss */
+.productSize {
+  padding-top: 60px;
+}
+
 /* =============== $Form Input ====================*/
-/* line 148, ../build/sass/main.scss */
+/* line 152, ../build/sass/main.scss */
 #textfield {
   height: 80px;
   width: 30%;
 }
 
-/* line 153, ../build/sass/main.scss */
+/* line 157, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 158, ../build/sass/main.scss */
+/* line 162, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 165, ../build/sass/main.scss */
+/* line 169, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 170, ../build/sass/main.scss */
+/* line 174, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 176, ../build/sass/main.scss */
+/* line 180, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 182, ../build/sass/main.scss */
+/* line 186, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 186, ../build/sass/main.scss */
+/* line 190, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 190, ../build/sass/main.scss */
+/* line 194, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 194, ../build/sass/main.scss */
+/* line 198, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 198, ../build/sass/main.scss */
+/* line 202, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 202, ../build/sass/main.scss */
+/* line 206, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }

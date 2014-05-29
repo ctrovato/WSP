@@ -9,32 +9,80 @@ html.no-js(lang='en')
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/foundation.min.js')
     script(src='js/vendor/modernizr.js')
-  .row
+   .row
     .large-12.columns
-    nav.top-bar(data-topbar='')
-      ul.title-area
-        li
-          a(href="index.html")
-          img.logo(src='images/Canon_logo.png')
-        // Title Area
-        li.name
-          h1
-            a(href='#')
-        li.toggle-topbar.menu-icon
-          a(href='#')
-            span menu
-      section.top-bar-section
-        ul.left
-          li
-            a(href='index.html') Home
-          li
-            a(href='ProductListing.html') Products
-          li
-            a(href='Contact.html') Contact
-          li
-            a(href='SignUp.html') Sign Up
+        // Navigation
+        nav.top-bar(data-topbar='')
+          ul.title-area
+            li
+              a(href="index.html")
+                img.logo(src='images/Canon_logo.png')
+
+            // Title Area
+            li.name
+              h1
+                a(href='#')
+            li.toggle-topbar.menu-icon
+              a(href='#')
+                span menu
+          section.top-bar-section
+            ul.left
+              li
+                a(href='ProductListing.html') Products
+              li
+                a(href='Contact.html') Contact
+              li
+                a(href='SignUp.html') Sign Up
+        // End Navigation
     // Main Content Section
-    // This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens
+hr
+.row
+ .large-12.columns
+    .row
+      .large-6.columns
+        img.frame(src='images/productReble.jpg')
+        br
+      .large-6.columns
+        .panel
+          h4.hide-for-small
+            | EOS Rebel SL1 White
+          h6.subheader
+            | The new EOS Rebel SL1 is small in size but enormous in performance. With a newly-designed Canon 18.0 Megapixel CMOS (APS-C) sensor and speedy Canon DIGIC 5 Image Processor, it delivers images of extraordinary quality - ideal for those stepping up from a smartphone or compact camera. An impressive ISO range of 100-12800 (expandable to H: 25600) for stills and 100-6400 (expandable to H: 12800) for video plus up to 4.0 fps continuous shooting make this camera the go-to for any photo opportunity, even in dim lighting or when capturing fast action subjects.
+        .row
+          .large-6.small-6.columns
+            .panel
+              h5 EOS Rebel SL1 White
+              h6.subheader $699.99
+              a.submit(href='#') Add to Cart
+      .row
+        .large-12.show-for-small.columns
+          h3 Header
+          hr
+        .large-3.small-6.columns
+          img.frame(src='images/item-1.jpg')
+          .panel
+            p Description
+        .large-3.small-6.columns
+          img.frame(src='images/item-2.jpg')
+          .panel
+            p Description
+        .large-3.small-6.columns
+          img.frame(src='images/item-3.jpg')
+          .panel
+            p Description
+        .large-3.small-6.columns
+          img.frame(src='images/item-4.jpg')
+          .panel
+            p Description
+// Footer
+footer.row
+  .large-12.columns
+    hr
+    .row
+      .large-6.columns
+        p © Copyright Canon Inc.  All Rights Reserved
+  script(src='js/vendor/foundation.js')
+rce ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens
 
   // Footer
   footer.row
