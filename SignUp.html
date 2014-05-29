@@ -33,34 +33,39 @@
   </div>
 </html>
 <!-- Sign Up FORM -------->
-<div class="inline">
-  <div id="textfield">
-    <h5>Sign Up</h5>
-    <p>
-      <label for="name" class="float_left">Full Name:</label>
-      <input id="name" type="text" name="name" maxlength="40" placeholder="First Name" required="" class="float_left clear form_focus form_hover round_corner"/>
-    </p>
-    <p>
-      <input id="name" type="text" name="name" maxlength="40" placeholder="Last Name" required="" class="float_left clear form_focus form_hover round_corner"/>
-    </p>
-    <p>
-      <label for="tel" class="clear float_left">Email Address:</label>
-      <input id="tel" type="tel" maxlength="20" placeholder="Email Address" required="" class="float_left clear form_focus form_hover round_corner"/>
-    </p>
+
+  <div class="large-12 small-12 columns">
+    <div class="contact">
+      <section class="section_light">
+        <div class="row">
+          <div class="large-12 columns">
+            <article>
+              <h4>Join Canon Direct</h4>
+              <label>Your Full Name</label>
+              <input placeholder="First, Last " type="text">
+              <label>Your Email</label>
+              <input placeholder="Example@example.com" type="text" class="twelve">
+              <div class="row"></div>
+<!-- DROP BOX-->
+              <div id="dropbox" class="float_left clear">
+                <p>Newsletter:<br/>Would You like to receive Newsletters via Email</p>
+                <select name="marketing">
+                  <option> Select One</option>
+                  <option value="Black">Yes, Weekly</option>
+                  <option value="Blue">Yes, Monthly</option>
+                  <option value="Brown">Yes, Annually</option>
+                  <option value="Green">No, Thank You</option>
+                </select>
+                <!-- SUBMIT-->
+                <button class="submit"> SUBMIT</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-  <!-- DROP BOX-->
-  <div id="dropbox" class="float_left clear">
-    <p>Newsletter:<br/>Would You like to receive Newsletters via Email</p>
-    <select name="marketing">
-      <option> Select One</option>
-      <option value="Black">Yes, Weekly</option>
-      <option value="Blue">Yes, Monthly</option>
-      <option value="Brown">Yes, Annually</option>
-      <option value="Green">No, Thank You</option>
-    </select>
-    <!-- SUBMIT-->
-    <button class="submit"> SUBMIT</button>
-  </div>
+
   <!-- .inline-->
   <!-- Footer-->
   <footer class="row">

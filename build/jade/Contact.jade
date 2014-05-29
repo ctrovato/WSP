@@ -9,54 +9,51 @@ html.no-js(lang='en')
     script(src='js/vendor/foundation.min.js')
     script(src='js/vendor/modernizr.js')
 .row
-    .large-12.columns
-    // Navigation
-    nav.top-bar(data-topbar='')
-      ul.title-area
-        li
-          a(href="index.html")
-            img.logo(src='images/Canon_logo.png')
-        // Title Area
-        li.name
-          h1
-            a(href='#')
-        li.toggle-topbar.menu-icon
+  .large-12.columns
+  // Navigation
+  nav.top-bar(data-topbar='')
+    ul.title-area
+      li
+        a(href='index.html')
+          img.logo(src='images/Canon_logo.png')
+      // Title Area
+      li.name
+        h1
           a(href='#')
-            span menu
-      section.top-bar-section
-        ul.left
-          li
-            a(href='ProductListing.html') Products
-          li
-            a(href='Contact.html') Contact
-          li
-            a(href='SignUp.html') Sign Up
-    // End Navigation
+      li.toggle-topbar.menu-icon
+        a(href='#')
+          span menu
+    section.top-bar-section
+      ul.left
+        li
+          a(href='ProductListing.html') Products
+        li
+          a(href='Contact.html') Contact
+        li
+          a(href='SignUp.html') Sign Up
+  // End Navigation
 // Main Page Content and Sidebar
 // Main Page Content and Sidebar
 .row
   // Contact Details
-  .large-9.columns
-    h5 Get Help with Products, Downloads, and more!
-    .section-container.tabs(data-section='')
-      section.section
-        h5.title
-          a(href='#panel1') Contact Us
-        .content(data-slug='panel1')
-          form
-            .row.collapse
-              .large-2.columns
-                label.inline Your Name
-              .large-10.columns
-                input#yourName(type='text', placeholder='Full Name')
-            .row.collapse
-              .large-2.columns
-                label.inline  Your Email
-              .large-10.columns
-                input#yourEmail(type='text', placeholder='example@example.com')
-            label What's up?
-            textarea(rows='4')
-            button.submit  SUBMIT
+  .large-12.small-12.columns
+    .contact
+      section.section_light
+        .row
+          .large-12.columns
+            article
+              h4 Contact Canon Direct
+            form.forms
+              h6 Support Line: 1-800-555-5555
+              h4  OR
+              label Your Full Name
+              input(placeholder='First, Last ', type='text')
+              label Your Email
+              input.twelve(placeholder='Example@example.com', type='text')
+              .row
+              label Leave a message
+              textarea(placeholder='Message')
+              input.submit(type='submit', value='Submit')
   // End Contact Details
   // End Main Content and Sidebar
   // Footer
@@ -65,6 +62,5 @@ html.no-js(lang='en')
       hr
       .row
         .large-6.columns
-          p  &#169; Copyright Canon Inc.  All Rights Reserved.
+          p  © Copyright Canon Inc.  All Rights Reserved.
     script(src='js/vendor/foundation.js')
-    script(src='js/vendor/modernizr.js')
