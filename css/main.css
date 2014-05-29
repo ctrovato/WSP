@@ -64,6 +64,15 @@ body {
 }
 
 /* line 70, ../build/sass/main.scss */
+.forms {
+  margin: 0 auto;
+}
+/* line 72, ../build/sass/main.scss */
+.forms h6 {
+  color: #FF2C2A;
+}
+
+/* line 77, ../build/sass/main.scss */
 .panel {
   border-style: solid;
   border-width: 1px;
@@ -73,12 +82,12 @@ body {
   background: #f0f0f0;
 }
 
-/* line 78, ../build/sass/main.scss */
+/* line 85, ../build/sass/main.scss */
 .row {
   padding-top: 20px;
 }
 
-/* line 82, ../build/sass/main.scss */
+/* line 89, ../build/sass/main.scss */
 #featured {
   background: url(../images/Banner001.jpg);
   background-size: cover;
@@ -86,18 +95,18 @@ body {
   width: 970px;
 }
 
-/* line 90, ../build/sass/main.scss */
+/* line 97, ../build/sass/main.scss */
 #productFeatureBanner {
   background: url(../images/productBanner.jpg);
 }
 
-/* line 96, ../build/sass/main.scss */
+/* line 103, ../build/sass/main.scss */
 .inline {
   margin-left: 185px;
   margin-top: 50px;
 }
 
-/* line 101, ../build/sass/main.scss */
+/* line 108, ../build/sass/main.scss */
 .shop {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -119,7 +128,7 @@ body {
   position: relative;
 }
 
-/* line 107, ../build/sass/main.scss */
+/* line 114, ../build/sass/main.scss */
 .submit {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -148,90 +157,90 @@ body {
   position: relative;
 }
 
-/* line 120, ../build/sass/main.scss */
+/* line 127, ../build/sass/main.scss */
 .frame {
   outline: 1px solid #0f0f0f;
 }
 
-/* line 125, ../build/sass/main.scss */
+/* line 132, ../build/sass/main.scss */
 .panel h4 {
   color: #FF2C2A;
 }
-/* line 128, ../build/sass/main.scss */
+/* line 135, ../build/sass/main.scss */
 .panel h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 132, ../build/sass/main.scss */
+/* line 139, ../build/sass/main.scss */
 .panel h6 {
   font-weight: bold;
 }
 
 /* =============== $Form Input ====================*/
-/* line 141, ../build/sass/main.scss */
+/* line 148, ../build/sass/main.scss */
 #textfield {
   height: 80px;
   width: 30%;
 }
 
-/* line 146, ../build/sass/main.scss */
+/* line 153, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 151, ../build/sass/main.scss */
+/* line 158, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 158, ../build/sass/main.scss */
+/* line 165, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 163, ../build/sass/main.scss */
+/* line 170, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 169, ../build/sass/main.scss */
+/* line 176, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 175, ../build/sass/main.scss */
+/* line 182, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 179, ../build/sass/main.scss */
+/* line 186, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 183, ../build/sass/main.scss */
+/* line 190, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 187, ../build/sass/main.scss */
+/* line 194, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 191, ../build/sass/main.scss */
+/* line 198, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 195, ../build/sass/main.scss */
+/* line 202, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }

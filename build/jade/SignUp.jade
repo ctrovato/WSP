@@ -8,63 +8,60 @@ html.no-js(lang='en')
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/foundation.min.js')
     script(src='js/vendor/modernizr.js')
+ .large-12.columns
+  // Navigation
+  nav.top-bar(data-topbar='')
+    ul.title-area
+      li
+        a(href='index.html')
+          img.logo(src='images/Canon_logo.png')
+      // Title Area
+      li.name
+        h1
+          a(href='#')
+      li.toggle-topbar.menu-icon
+        a(href='#')
+          span menu
+    section.top-bar-section
+      ul.left
+        li
+          a(href='ProductListing.html') Products
+        li
+          a(href='Contact.html') Contact
+        li
+          a(href='#') Sign Up
+  // End Navigation
+// Sign Up FORM ------
+section.section_light
   .row
     .large-12.columns
-        // Navigation
-        nav.top-bar(data-topbar='')
-          ul.title-area
-            img.logo(src='images/Canon_logo.png')
-              li
-                a(href="index.html")
-            // Title Area
-            li.name
-              h1
-                a(href='#')
-            li.toggle-topbar.menu-icon
-              a(href='#')
-                span menu
-          section.top-bar-section
-            ul.left
-              li
-                a(href='ProductListing.html') Products
-              li
-                a(href='Contact.html') Contact
-              li
-                a(href='#') Sign Up
-    // End Navigation
-// Sign Up FORM ------
-.inline
-  #textfield
-    h5 Sign Up
-    p
-      label.float_left(for='name') Full Name:
-      input#name.float_left.clear.form_focus.form_hover.round_corner(type='text', name='name', maxlength='40', placeholder='First Name', required='')
-    p
-      input#name.float_left.clear.form_focus.form_hover.round_corner(type='text', name='name', maxlength='40', placeholder='Last Name', required='')
-    p
-      label.clear.float_left(for='tel') Email Address:
-      input#tel.float_left.clear.form_focus.form_hover.round_corner(type='tel', maxlength='20', placeholder='Email Address', required='')
-  // DROP BOX
-  #dropbox.float_left.clear
-    p
-      | Newsletter:
-      br
-      | Would You like to receive Newsletters via Email
-    select(name='marketing')
-      option  Select One
-      option(value='Black') Yes, Weekly
-      option(value='Blue') Yes, Monthly
-      option(value='Brown') Yes, Annually
-      option(value='Green') No, Thank You
-    // SUBMIT
-    button.submit  SUBMIT
-  // .inline
-  // Footer
-  footer.row
-    .large-12.columns
-      hr
-      .row
-        .large-6.columns
-          p &#169; Copyright Canon Inc.  All Rights Reserved
-    script(src='js/vendor/foundation.min.js')
-    script(src='js/vendor/modernizr.js')
+      article
+        h5 Sign Up
+      form.forms
+        input.name(placeholder='First, Last ', type='text')
+        label Your Email
+        input.email(placeholder='Example@example.com', type='text')
+        .row
+        // DROP BOX
+        #dropbox.float_left.clear
+          p
+            | Newsletter:
+            br
+            | Would You like to receive Newsletters via Email
+          select(name='marketing')
+            option  Select One
+            option(value='Black') Yes, Weekly
+            option(value='Blue') Yes, Monthly
+            option(value='Brown') Yes, Annually
+            option(value='Green') No, Thank You
+          // SUBMIT
+          button.submit  Sign Up
+// .inline
+// Footer
+footer.row
+  .large-12.columns
+    hr
+    .row
+      .large-6.columns
+        p © Copyright Canon Inc.  All Rights Reserved
+  script(src='js/vendor/foundation.min.js')
