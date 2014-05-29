@@ -153,7 +153,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
-  margin: 0 0 1.25rem;
+  margin: 0 0 4.5rem;
   position: relative;
 }
 
@@ -176,12 +176,30 @@ body {
   font-weight: bold;
 }
 
-/* line 144, ../build/sass/main.scss */
-.productSize {
-  padding-top: 60px;
+/* line 145, ../build/sass/main.scss */
+.productDesc {
+  padding: 5px, 0px, 0px, 0px;
+}
+/* line 147, ../build/sass/main.scss */
+.productDesc h4 {
+  color: #FF2C2A;
+}
+/* line 150, ../build/sass/main.scss */
+.productDesc h5 {
+  font-weight: bold;
+  color: #FF2C2A;
+}
+/* line 154, ../build/sass/main.scss */
+.productDesc h6 {
+  font-weight: bold;
 }
 
-/* line 148, ../build/sass/main.scss */
+/* line 162, ../build/sass/main.scss */
+.hide-for-small h4 {
+  margin-top: 0;
+}
+
+/* line 169, ../build/sass/main.scss */
 hr {
   border: solid #FF2C2A;
   border-width: 1px 0 0;
@@ -191,70 +209,70 @@ hr {
 }
 
 /* =============== $Form Input ====================*/
-/* line 161, ../build/sass/main.scss */
+/* line 182, ../build/sass/main.scss */
 #textfield {
   height: 80px;
   width: 30%;
 }
 
-/* line 166, ../build/sass/main.scss */
+/* line 187, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 171, ../build/sass/main.scss */
+/* line 192, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 178, ../build/sass/main.scss */
+/* line 199, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 183, ../build/sass/main.scss */
+/* line 204, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 189, ../build/sass/main.scss */
+/* line 210, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 195, ../build/sass/main.scss */
+/* line 216, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 199, ../build/sass/main.scss */
+/* line 220, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 203, ../build/sass/main.scss */
+/* line 224, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 207, ../build/sass/main.scss */
+/* line 228, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 211, ../build/sass/main.scss */
+/* line 232, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 215, ../build/sass/main.scss */
+/* line 236, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }
