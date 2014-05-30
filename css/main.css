@@ -1,4 +1,4 @@
-/* line 7, ../build/sass/main.scss */
+/* line 6, ../build/sass/main.scss */
 body {
   background: #f0f0f0;
   color: #222222;
@@ -12,13 +12,13 @@ body {
   cursor: default;
 }
 
-/* line 19, ../build/sass/main.scss */
+/* line 18, ../build/sass/main.scss */
 .logo {
   margin: 0;
   padding-top: 10px;
 }
 
-/* line 24, ../build/sass/main.scss */
+/* line 23, ../build/sass/main.scss */
 .top-bar {
   overflow: hidden;
   height: 45px;
@@ -29,15 +29,15 @@ body {
   margin-bottom: 0;
 }
 
-/* line 34, ../build/sass/main.scss */
+/* line 33, ../build/sass/main.scss */
 .top-bar-section ul {
   background: transparent;
 }
-/* line 37, ../build/sass/main.scss */
+/* line 36, ../build/sass/main.scss */
 .top-bar-section ul li:not(.has-form) a:not(.button) {
   background: transparent;
 }
-/* line 42, ../build/sass/main.scss */
+/* line 41, ../build/sass/main.scss */
 .top-bar-section ul li a {
   display: block;
   background: transparent;
@@ -51,28 +51,28 @@ body {
   text-transform: none;
 }
 
-/* line 58, ../build/sass/main.scss */
+/* line 57, ../build/sass/main.scss */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: transparent;
   color: #FF2C2A;
   font-weight: bold;
 }
 
-/* line 65, ../build/sass/main.scss */
+/* line 64, ../build/sass/main.scss */
 #textfield h5 {
   color: #FF2C2A;
 }
 
-/* line 70, ../build/sass/main.scss */
+/* line 69, ../build/sass/main.scss */
 .forms {
   margin: 0 auto;
 }
-/* line 72, ../build/sass/main.scss */
+/* line 71, ../build/sass/main.scss */
 .forms h6 {
   color: #FF2C2A;
 }
 
-/* line 77, ../build/sass/main.scss */
+/* line 76, ../build/sass/main.scss */
 .panel {
   border-style: solid;
   border-width: 1px;
@@ -82,12 +82,12 @@ body {
   background: #f0f0f0;
 }
 
-/* line 85, ../build/sass/main.scss */
+/* line 84, ../build/sass/main.scss */
 .row {
   padding-top: 20px;
 }
 
-/* line 89, ../build/sass/main.scss */
+/* line 88, ../build/sass/main.scss */
 #featured {
   background: url(../images/Banner001.jpg);
   background-size: cover;
@@ -95,18 +95,18 @@ body {
   width: 970px;
 }
 
-/* line 97, ../build/sass/main.scss */
+/* line 96, ../build/sass/main.scss */
 #productFeatureBanner {
   background: url(../images/productBanner.jpg);
 }
 
-/* line 103, ../build/sass/main.scss */
+/* line 102, ../build/sass/main.scss */
 .inline {
   margin-left: 185px;
   margin-top: 50px;
 }
 
-/* line 108, ../build/sass/main.scss */
+/* line 107, ../build/sass/main.scss */
 .shop {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -128,7 +128,7 @@ body {
   position: relative;
 }
 
-/* line 114, ../build/sass/main.scss */
+/* line 113, ../build/sass/main.scss */
 .submit {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -157,49 +157,49 @@ body {
   position: relative;
 }
 
-/* line 127, ../build/sass/main.scss */
+/* line 126, ../build/sass/main.scss */
 .frame {
   outline: 1px solid #0f0f0f;
 }
 
-/* line 132, ../build/sass/main.scss */
+/* line 131, ../build/sass/main.scss */
 .panel h4 {
   color: #FF2C2A;
 }
-/* line 135, ../build/sass/main.scss */
+/* line 134, ../build/sass/main.scss */
 .panel h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 139, ../build/sass/main.scss */
+/* line 138, ../build/sass/main.scss */
 .panel h6 {
   font-weight: bold;
 }
 
-/* line 145, ../build/sass/main.scss */
+/* line 144, ../build/sass/main.scss */
 .productDesc {
   padding: 5px, 0px, 0px, 0px;
 }
-/* line 147, ../build/sass/main.scss */
+/* line 146, ../build/sass/main.scss */
 .productDesc h4 {
   color: #FF2C2A;
 }
-/* line 150, ../build/sass/main.scss */
+/* line 149, ../build/sass/main.scss */
 .productDesc h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 154, ../build/sass/main.scss */
+/* line 153, ../build/sass/main.scss */
 .productDesc h6 {
   font-weight: bold;
 }
 
-/* line 161, ../build/sass/main.scss */
+/* line 159, ../build/sass/main.scss */
 .hide-for-small h4 {
   margin-top: 0;
 }
 
-/* line 168, ../build/sass/main.scss */
+/* line 164, ../build/sass/main.scss */
 hr {
   border: solid #FF2C2A;
   border-width: 1px 0 0;
@@ -208,71 +208,195 @@ hr {
   height: 0;
 }
 
-/* =============== $Form Input ====================*/
+/* =============== $Icons ====================*/
+/* line 174, ../build/sass/main.scss */
+.iconBox {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2c2a), color-stop(100%, #9f0801));
+  background: -webkit-linear-gradient(top, #ff2c2a, #9f0801);
+  background: -moz-linear-gradient(top, #ff2c2a, #9f0801);
+  background: -o-linear-gradient(top, #ff2c2a, #9f0801);
+  background: linear-gradient(top, #ff2c2a, #9f0801);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
 /* line 181, ../build/sass/main.scss */
-#textfield {
-  height: 80px;
-  width: 30%;
+.iconBox:after {
+  content: " ";
+  width: 100%;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: -7px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 191, ../build/sass/main.scss */
+.iconBox .inner-border {
+  width: 96px;
+  height: 93px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  border-top: 1px solid #fff;
+  overflow: hidden;
+}
+/* line 201, ../build/sass/main.scss */
+.iconBox .inner-border:before {
+  content: " ";
+  display: block;
+  width: 93px;
+  height: 100%;
+  position: absolute;
+  -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#9f0801)) 1 100%;
+  border-width: 1px;
+  border-style: solid;
+  z-index: 5;
+}
+/* line 213, ../build/sass/main.scss */
+.iconBox .inner-border:after {
+  content: " ";
+  background: green;
+  display: block;
+  width: 200px;
+  height: 93px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(100%, #ff2c2a));
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3), #ff2c2a);
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.3), #ff2c2a);
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.3), #ff2c2a);
+  background: linear-gradient(bottom, rgba(255, 255, 255, 0.3), #ff2c2a);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 229, ../build/sass/main.scss */
+.iconBox .logo {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  left: 25%;
+  top: 25%;
+}
+/* line 239, ../build/sass/main.scss */
+.iconBox .logo #logo {
+  fill: white;
+  height: 50px;
+  width: 50px;
 }
 
-/* line 186, ../build/sass/main.scss */
+/* line 249, ../build/sass/main.scss */
+.iconBanner .iconBox {
+  margin: 0 auto;
+}
+/* line 252, ../build/sass/main.scss */
+.iconBanner .panel {
+  text-align: center;
+}
+
+/* =============== $Form Input ====================*/
+/* line 261, ../build/sass/main.scss */
+.contact .row {
+  padding-top: 0;
+}
+
+/* line 267, ../build/sass/main.scss */
+.forms {
+  width: 50%;
+  padding-top: 0;
+}
+
+/* line 273, ../build/sass/main.scss */
+#textfield {
+  height: 80px;
+  width: 100%;
+}
+
+/* line 278, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 191, ../build/sass/main.scss */
+/* line 283, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 198, ../build/sass/main.scss */
+/* line 290, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 203, ../build/sass/main.scss */
+/* line 296, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 209, ../build/sass/main.scss */
+/* line 303, ../build/sass/main.scss */
+article h5 {
+  padding-left: 245px;
+}
+
+/* line 308, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 215, ../build/sass/main.scss */
+/* line 314, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 219, ../build/sass/main.scss */
+/* line 318, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 223, ../build/sass/main.scss */
+/* line 322, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 227, ../build/sass/main.scss */
+/* line 326, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 231, ../build/sass/main.scss */
+/* line 330, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 235, ../build/sass/main.scss */
+/* line 334, ../build/sass/main.scss */
+.center {
+  margin: 0 auto;
+}
+
+/* line 338, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }

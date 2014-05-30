@@ -1,14 +1,14 @@
 doctype htmlhtml.no-js(lang='en')
 html.no-js(lang='en')
   head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Canon Direct Store
-    link(rel='stylesheet', href='css/foundation.css')
-    link(rel='stylesheet', href='css/main.css')
-    script(src='js/vendor/foundation.min.js')
-    script(src='js/vendor/modernizr.js')
-
+    body
+      meta(charset='utf-8')
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      title Canon Direct Store
+      link(rel='stylesheet', href='css/foundation.css')
+      link(rel='stylesheet', href='css/main.css')
+      script(src='js/vendor/foundation.min.js')
+      script(src='js/vendor/modernizr.js')
 .row
  .large-12.columns
   // Navigation
@@ -50,8 +50,9 @@ section.section_light
   .row
     .large-12.columns
       article
-        h5 Sign Up
       form.forms
+        h5 Sign Up
+        label Your Full Name
         input.name(placeholder='First, Last ', type='text')
         label Your Email
         input.email(placeholder='Example@example.com', type='text')

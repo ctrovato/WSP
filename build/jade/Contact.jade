@@ -1,13 +1,14 @@
 doctype html
 html.no-js(lang='en')
   head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Canon Direct Store
-    link(rel='stylesheet', href='css/foundation.css')
-    link(rel='stylesheet', href='css/main.css')
-    script(src='js/vendor/foundation.min.js')
-    script(src='js/vendor/modernizr.js')
+    body
+      meta(charset='utf-8')
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      title Canon Direct Store
+      link(rel='stylesheet', href='css/foundation.css')
+      link(rel='stylesheet', href='css/main.css')
+      script(src='js/vendor/foundation.min.js')
+      script(src='js/vendor/modernizr.js')
 .row
   .large-12.columns
   // Navigation
@@ -26,7 +27,7 @@ html.no-js(lang='en')
     section.top-bar-section
       ul.left
         li
-          a(href='ProductListing.html') Products
+          a(href='ProductListing.html') Cameras
         li
           a(href='#') Binoculars
         li
@@ -55,11 +56,11 @@ hr
         .row
           .large-12.columns
             article
-              h5 Contact Us
             form.forms
+              h5 Contact Us
               h6 Support Line: 1-800-555-5555
               label Your Full Name
-              input.name(placeholder='First, Last ', type='text')
+              input.name(placeholder='Last, First', type='text')
               label Your Email Address
               input.email(placeholder='Example@example.com', type='text')
               .row
