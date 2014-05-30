@@ -87,7 +87,17 @@ body {
   padding-top: 20px;
 }
 
-/* line 88, ../build/sass/main.scss */
+/* line 89, ../build/sass/main.scss */
+#featured {
+  padding-left: 10px;
+}
+/* line 91, ../build/sass/main.scss */
+#featured h3 {
+  padding-top: 100px;
+  color: #FF2C2A;
+}
+
+/* line 97, ../build/sass/main.scss */
 #featured {
   background: url(../images/Banner001.jpg);
   background-size: cover;
@@ -95,25 +105,25 @@ body {
   width: 970px;
 }
 
-/* line 96, ../build/sass/main.scss */
+/* line 105, ../build/sass/main.scss */
 #productFeatureBanner {
   background: url(../images/productBanner.jpg);
 }
 
-/* line 102, ../build/sass/main.scss */
+/* line 111, ../build/sass/main.scss */
 .inline {
   margin-left: 185px;
   margin-top: 50px;
 }
 
-/* line 107, ../build/sass/main.scss */
+/* line 116, ../build/sass/main.scss */
 .shop {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   background-color: #ff2c2a;
-  margin-top: 265px;
+  margin-top: 40px;
   margin-left: 150px;
   padding: 1rem 1rem 1rem 1.0625rem;
   color: white;
@@ -128,7 +138,7 @@ body {
   position: relative;
 }
 
-/* line 113, ../build/sass/main.scss */
+/* line 122, ../build/sass/main.scss */
 .submit {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -157,49 +167,49 @@ body {
   position: relative;
 }
 
-/* line 126, ../build/sass/main.scss */
+/* line 135, ../build/sass/main.scss */
 .frame {
   outline: 1px solid #0f0f0f;
 }
 
-/* line 131, ../build/sass/main.scss */
+/* line 140, ../build/sass/main.scss */
 .panel h4 {
   color: #FF2C2A;
 }
-/* line 134, ../build/sass/main.scss */
+/* line 143, ../build/sass/main.scss */
 .panel h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 138, ../build/sass/main.scss */
+/* line 147, ../build/sass/main.scss */
 .panel h6 {
   font-weight: bold;
 }
 
-/* line 144, ../build/sass/main.scss */
+/* line 153, ../build/sass/main.scss */
 .productDesc {
   padding: 5px, 0px, 0px, 0px;
 }
-/* line 146, ../build/sass/main.scss */
+/* line 155, ../build/sass/main.scss */
 .productDesc h4 {
   color: #FF2C2A;
 }
-/* line 149, ../build/sass/main.scss */
+/* line 158, ../build/sass/main.scss */
 .productDesc h5 {
   font-weight: bold;
   color: #FF2C2A;
 }
-/* line 153, ../build/sass/main.scss */
+/* line 162, ../build/sass/main.scss */
 .productDesc h6 {
   font-weight: bold;
 }
 
-/* line 159, ../build/sass/main.scss */
+/* line 168, ../build/sass/main.scss */
 .hide-for-small h4 {
   margin-top: 0;
 }
 
-/* line 164, ../build/sass/main.scss */
+/* line 173, ../build/sass/main.scss */
 hr {
   border: solid #FF2C2A;
   border-width: 1px 0 0;
@@ -209,7 +219,7 @@ hr {
 }
 
 /* =============== $Icons ====================*/
-/* line 174, ../build/sass/main.scss */
+/* line 183, ../build/sass/main.scss */
 .iconBox {
   width: 100px;
   height: 100px;
@@ -225,7 +235,7 @@ hr {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 181, ../build/sass/main.scss */
+/* line 190, ../build/sass/main.scss */
 .iconBox:after {
   content: " ";
   width: 100%;
@@ -239,7 +249,7 @@ hr {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 191, ../build/sass/main.scss */
+/* line 200, ../build/sass/main.scss */
 .iconBox .inner-border {
   width: 96px;
   height: 93px;
@@ -250,7 +260,7 @@ hr {
   border-top: 1px solid #fff;
   overflow: hidden;
 }
-/* line 201, ../build/sass/main.scss */
+/* line 210, ../build/sass/main.scss */
 .iconBox .inner-border:before {
   content: " ";
   display: block;
@@ -262,7 +272,7 @@ hr {
   border-style: solid;
   z-index: 5;
 }
-/* line 213, ../build/sass/main.scss */
+/* line 222, ../build/sass/main.scss */
 .iconBox .inner-border:after {
   content: " ";
   background: green;
@@ -283,7 +293,7 @@ hr {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 229, ../build/sass/main.scss */
+/* line 238, ../build/sass/main.scss */
 .iconBox .logo {
   display: block;
   position: absolute;
@@ -295,108 +305,108 @@ hr {
   left: 25%;
   top: 25%;
 }
-/* line 239, ../build/sass/main.scss */
+/* line 248, ../build/sass/main.scss */
 .iconBox .logo #logo {
   fill: white;
   height: 50px;
   width: 50px;
 }
 
-/* line 249, ../build/sass/main.scss */
+/* line 258, ../build/sass/main.scss */
 .iconBanner .iconBox {
   margin: 0 auto;
 }
-/* line 252, ../build/sass/main.scss */
+/* line 261, ../build/sass/main.scss */
 .iconBanner .panel {
   text-align: center;
 }
 
 /* =============== $Form Input ====================*/
-/* line 261, ../build/sass/main.scss */
+/* line 270, ../build/sass/main.scss */
 .contact .row {
   padding-top: 0;
 }
 
-/* line 267, ../build/sass/main.scss */
+/* line 275, ../build/sass/main.scss */
 .forms {
   width: 50%;
   padding-top: 0;
 }
 
-/* line 273, ../build/sass/main.scss */
+/* line 281, ../build/sass/main.scss */
 #textfield {
   height: 80px;
   width: 100%;
 }
 
-/* line 278, ../build/sass/main.scss */
+/* line 286, ../build/sass/main.scss */
 .about {
   margin: 0 auto;
 }
 
-/* line 283, ../build/sass/main.scss */
+/* line 291, ../build/sass/main.scss */
 .input {
   width: 30%;
   height: 20px;
   margin-bottom: 10px;
 }
 
-/* line 290, ../build/sass/main.scss */
+/* line 298, ../build/sass/main.scss */
 .form_focus:focus, .form_hover:hover {
   background-color: #555555;
   opacity: 4;
 }
 
-/* line 296, ../build/sass/main.scss */
+/* line 304, ../build/sass/main.scss */
 select {
   padding: 10px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
-/* line 303, ../build/sass/main.scss */
+/* line 311, ../build/sass/main.scss */
 article h5 {
   padding-left: 245px;
 }
 
-/* line 308, ../build/sass/main.scss */
+/* line 316, ../build/sass/main.scss */
 #radio input {
   width: 5%;
   margin-bottom: 5px;
   margin-left: 0;
 }
 
-/* line 314, ../build/sass/main.scss */
+/* line 322, ../build/sass/main.scss */
 #radio {
   margin-bottom: 20px;
 }
 
-/* line 318, ../build/sass/main.scss */
+/* line 326, ../build/sass/main.scss */
 #slider {
   margin-left: 0;
 }
 
-/* line 322, ../build/sass/main.scss */
+/* line 330, ../build/sass/main.scss */
 .float_left {
   float: left;
 }
 
-/* line 326, ../build/sass/main.scss */
+/* line 334, ../build/sass/main.scss */
 .float_right {
   float: right;
 }
 
-/* line 330, ../build/sass/main.scss */
+/* line 338, ../build/sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 334, ../build/sass/main.scss */
+/* line 342, ../build/sass/main.scss */
 .center {
   margin: 0 auto;
 }
 
-/* line 338, ../build/sass/main.scss */
+/* line 346, ../build/sass/main.scss */
 .round_corner {
   border-radius: 4px;
 }
