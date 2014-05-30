@@ -139,7 +139,7 @@ body {
 }
 
 /* line 121, ../build/sass/main.scss */
-a:hover {
+#shop:hover {
   color: white;
   background-color: #BD2C2A;
 }
