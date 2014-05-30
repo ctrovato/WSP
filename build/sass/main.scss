@@ -116,8 +116,13 @@ body {
 .shop {
   @include button($color, 40px, 150px);
   position: relative;
-
 }
+
+a:hover{
+  color: white;
+  background-color: #BD2C2A;
+}
+
 
 .submit{
   @include button($color, 265px, 150px);
